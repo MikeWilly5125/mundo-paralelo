@@ -5,11 +5,11 @@ describe('testeIntegration', () => {
         
     });
 
-    // it('teste2', () => {
+    it('teste2', () => {
 
-    //     cy.visit('www.google.com.br')
-    //     cy.log('error'),
-    //     cy.get('error')
-    // });
+        cy.visit('www.google.com.br')
+        cy.log('error'),
+        cy.get('error')
+    });
     
 });
