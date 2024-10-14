@@ -15,6 +15,7 @@ describe('testeIntegration', () => {
     it('teste3', () => {
 
         cy.visit('www.google.com.br')
+        cy.url().should('includes', 'google')
         
     });
 
