@@ -12,4 +12,15 @@ describe('testeIntegration', () => {
         cy.get('error')
     });
     
+    it('teste3', () => {
+
+        cy.visit('www.google.com.br')
+        
+    });
+
+    it('teste4', () => {
+
+        cy.visit('www.google.com.br')
+       
+    });
 });
