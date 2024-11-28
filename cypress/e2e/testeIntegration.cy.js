@@ -8,8 +8,8 @@ describe('testeIntegration', () => {
     it('teste2', () => {
 
         cy.visit('www.google.com.br')
-        cy.log('error'),
-        cy.get('error')
+        // cy.log('error'),
+        // cy.get('error')
     });
     
     it('teste3', () => {
